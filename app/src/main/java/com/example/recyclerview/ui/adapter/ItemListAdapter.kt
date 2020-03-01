@@ -1,8 +1,9 @@
-package com.example.recyclerview
+package com.example.recyclerview.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.example.recyclerview.R
 import com.example.recyclerview.model.ItemModel
 
 class ItemListAdapter(val itemList: ArrayList<ItemModel>, val clickListener: (ItemModel) -> Unit) :

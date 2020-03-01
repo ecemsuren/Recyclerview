@@ -1,9 +1,10 @@
-package com.example.recyclerview
+package com.example.recyclerview.ui.adapter
 
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.recyclerview.R
 import com.example.recyclerview.model.ItemModel
 
 class ItemListViewHolder (itemView : View): RecyclerView.ViewHolder(itemView){
